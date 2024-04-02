@@ -1,0 +1,151 @@
+/* .project-content {
+     align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+} */
+.straight{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0px;
+}
+.project{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px ;
+    color: rgb(142, 87, 194);
+}
+.skills p{
+    font-size: 2.3rem;
+}
+.reverse{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0px;
+}
+@media (max-width: 1020px) {
+    .straight {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container1 {
+        width: 90%;
+    }
+    .project{
+        font-size: 30px;
+    }
+
+
+
+}
+.icons{
+    font-size: 30px;
+}
+@media (max-width:710px) {
+    .project-img {
+        height: 27rem !important;
+        width: 47rem !important;
+    }
+}
+@media (max-width:490px) {
+    .project-img {
+        height: 26rem !important;
+        width: 35rem !important;
+    }
+}
+
+.description-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* padding: 0px 0px 0px 30px; */
+}
+
+.project-img {
+    border-radius: 1.7rem;
+    height: 35rem;
+    width: 70rem;
+}
+
+.project-heading {
+    color: #2d2e32;
+    font-family: Poppins, sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+.project-summary {
+    color: #6b6a6a;
+    font-family: Mulish, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.project-tools {
+    display: flex;
+    gap: 20px;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+}
+
+.project-tools h4 {
+    color: #2d2e32;
+    font-family: Poppins, sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin: 7px 0px;
+    /* margin-bottom: 2rem; */
+    /* padding: 0xp 10px; */
+}
+
+.container1 {
+    max-width: 120rem;
+    margin:  auto;
+    border-top: 2px solid #363434;
+    padding: 0 4rem;
+}
+
+.project-tools a button {
+    padding: 5px 8px;
+    font-size: 1.8rem;
+    font-family: Poppins, sans-serif;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.project-tools a {
+    text-decoration: none;
+}
+
+.FaGithub {
+    /* padding: 10px; */
+    font-size: 2.5rem;
+    margin-left: 5px;
+}
