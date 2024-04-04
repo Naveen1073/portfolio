@@ -36,7 +36,7 @@ function Hero() {
                     aria-label="linkedin"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/stefan-topalovic-dev/"
+                    href="https://www.linkedin.com/in/k-naveen-19b05028b"
                   >
                     <AiOutlineLinkedin width={32} height={32} />
                   </a>
@@ -44,7 +44,7 @@ function Hero() {
                     aria-label="github"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/stefvndev"
+                    href="https://github.com/Naveen1073"
                   >
                     <FaGithub width={32} height={32} />
                   </a>
