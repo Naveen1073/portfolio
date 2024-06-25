@@ -12,8 +12,16 @@ const skillsIcons = [
     id: 2,
   },
   {
-    img: "https://skillicons.dev/icons?i=react,python",
+    img: "https://skillicons.dev/icons?i=react,nodejs",
     id: 3,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=expressjs,mongodb",
+    id: 4,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=python,django",
+    id: 5,
   },
 
 ];
@@ -26,10 +34,10 @@ function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
-                <h1>Front-End React Developer</h1>
+                <h1>Full-Stack Developer</h1>
                 
                 <p>
-                  Hii, I'm Naveen, a passionate Front-end Developer. As a fresher in the field, I bring enthusiasm, dedication, and a strong foundation in front-end development 📍
+                  Hii, I'm Naveen, a passionate Full stack developer. As a fresher in the field, I bring enthusiasm, dedication, and a strong foundation in front-end development 📍
                 </p>
                 <span>
                   <a

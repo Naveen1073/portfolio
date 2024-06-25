@@ -20,7 +20,7 @@ function AboutMe() {
             <div className="text-side">
               <h3>About me</h3>
               <h4>
-                Front-end Developer <br />
+                Full-stack developer<br />
               </h4>
               <p>
               Hello, my name is Naveen, and I'm a Frontend Developer. My passion is to develop efficient and user-friendly applications.
